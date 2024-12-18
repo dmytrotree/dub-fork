@@ -89,7 +89,7 @@ export function Nav({
   );
 
   // here we need to check if the user has a dub_id cookie
-  // if they do, we should just use app.dub.co links
+  // if they do, we should just use app.betterdata.co links
   // if not, we can use conversion-enabled d.to links
   const hasDubCookie =
     domain === "dub.co" && Cookies.get("dub_id") ? true : false;
